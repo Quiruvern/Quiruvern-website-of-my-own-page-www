@@ -62,7 +62,7 @@ body.dark{
 }
 
 .home .title {
-    font-size: 5rem;
+    font-size: 10x-large;
     text-shadow: 4px 4px 9px rgba(66, 68, 90, 1);
 }
 
@@ -113,6 +113,16 @@ body.dark{
 
 .sidebar.close .text{
     opacity: 0;
+}
+
+.info .links {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.info .links:hover {
+    color: #54b3d6;
+    transition: var(--tran-03);
 }
 
 /* =========================== */
